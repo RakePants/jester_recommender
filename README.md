@@ -1,4 +1,4 @@
-# Jester Rec
+# Jester Recommender
 ## Metrics
 Evaluation metrics used:
 - MAE
@@ -25,7 +25,8 @@ python scripts/train.py \
 ```
 3. Evaluate the model:
 ```
-python scripts/evaluate.py \
+PYTHONPATH=src python scripts/evaluate.py \
   --artifacts-dir artifacts/ \
-  --output-dir    artifacts/
+  --output-dir    artifacts/ \
+  --k             20
 ```
