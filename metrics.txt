@@ -1,0 +1,8 @@
+https://habr.com/ru/articles/779038/
+
+Precision@k 
+Mean Average Precision for the first k recommendations (MAP@k) 
+Normalized Discounted Cumulative Gain for the first k recommendations (NDCG@k)
+diversity
+novelty
+coverage
